@@ -13,6 +13,7 @@
         <module>hadoop</module>
         <module>kafka</module>
         <module>cocurrent</module>
+        <module>zookeeper</module>
     </modules>
 
     <properties>
