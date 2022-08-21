@@ -12,6 +12,7 @@
         <module>spark</module>
         <module>hadoop</module>
         <module>kafka</module>
+        <module>cocurrent</module>
     </modules>
 
     <properties>
