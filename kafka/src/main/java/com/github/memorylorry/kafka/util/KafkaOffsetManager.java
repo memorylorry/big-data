@@ -1,4 +1,4 @@
-package com.github.memorylorry.kafka;
+package com.github.memorylorry.kafka.util;
 
 import java.io.*;
 
@@ -22,10 +22,10 @@ public class KafkaOffsetManager {
 				return Long.parseLong(a);
 			} catch (FileNotFoundException e) {
 				e.printStackTrace();
-				return -1;
+				return 0;
 			} catch (IOException e) {
 				e.printStackTrace();
-				return -1;
+				return 0;
 			}
 		}
 
